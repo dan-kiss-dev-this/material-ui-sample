@@ -9,6 +9,8 @@ import { makeStyles, ThemeProvider, createMuiTheme } from '@material-ui/core/sty
 import { orange, green } from '@material-ui/core/colors'
 import Container from '@material-ui/core/Container'
 
+import SimpleAccordian from './Accordion'
+
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -65,7 +67,7 @@ function App() {
 
       </ButtonGroup>
 
-      {/* <Accordion children={[1,2,3]}/> */}
+      <SimpleAccordian />
     </ThemeProvider>
   );
 }
