@@ -16,7 +16,7 @@ export default function SimpleAccordian() {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>Accordian 2</AccordionSummary>
         <AccordionDetails>
-          Hey stuff about number 2
+          Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2 Hey stuff about number 2
         </AccordionDetails>
       </Accordion>
     </div>

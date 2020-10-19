@@ -10,6 +10,8 @@ import { orange, green } from '@material-ui/core/colors'
 import Container from '@material-ui/core/Container'
 
 import SimpleAccordian from './Accordion'
+import Accordion2 from './Accordion2'
+import InfiniteScroll from './InfiniteScroll'
 
 const theme = createMuiTheme({
   palette: {
@@ -67,7 +69,10 @@ function App() {
 
       </ButtonGroup>
 
+      <InfiniteScroll />
       <SimpleAccordian />
+      <Accordion2 />
+
     </ThemeProvider>
   );
 }
