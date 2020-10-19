@@ -8,13 +8,14 @@ export default function InfiniteLoaderComp() {
   async function fetchData() {
     //need to add error handeling, consider try catch statement
     const response = await fetch(
-      "http://dinoipsum.herokuapp.com/api/?format=json&paragraphs=1&words=15"
+      "http://dinoipsum.herokuapp.com/api/?format=json&paragraphs=1&words=10"
     );
     const json = await response.json();
     await setDino((prev) => [...prev, ...json[0]]);
   }
 
-  let remoteRowCount = 1000;
+  // this allows the infinite scroll
+  let remoteRowCount = list.length + 20;
 
   //const list = [];
 
@@ -35,7 +36,7 @@ export default function InfiniteLoaderComp() {
     );
   }
 
-  console.log(38,list)
+  console.log(38, list)
 
 
   return (
